@@ -1,4 +1,3 @@
-// Function to display the current year and last modified date
 function updateFooterDates() {
     const currentYear = new Date().getFullYear();
     const lastModified = document.lastModified;
@@ -12,5 +11,4 @@ function updateFooterDates() {
     lastModifiedElement.textContent = `Last Updated: ${lastModified}`;
 }
 
-// Call the function when the page loads
 document.addEventListener('DOMContentLoaded', updateFooterDates);

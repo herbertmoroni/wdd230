@@ -1,12 +1,12 @@
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
-    padding: 0;
-    background: #f0f0f0; /* Assuming a light grey background */
+    padding: 0 10px;
+    background: #f0f0f0; 
 }
 
 header {
-    background-color: #ffffff; /* Assuming a white header background */
+    background-color: #ffffff; 
     padding: 20px;
     text-align: center;
     display: grid;
@@ -15,18 +15,18 @@ header {
 }
 
 header img {
-    width: 100px; /* Adjust as needed */
+    width: 100px; 
     height: auto;
-    border-radius: 50%; /* Gives a circular profile image */
+    border-radius: 50%; 
 }
 
 header h1 {
     margin-left: 20px;
-    color: #000000; /* Adjust color as needed */
+    color: #000000; 
 }
 
 nav {
-    background-color: #333333; /* Dark background for the nav */
+    background-color: #333333; 
     color: #ffffff;
     padding: 10px;
 }
@@ -36,7 +36,7 @@ nav ul {
     padding: 0;
     margin: 0;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); /* Adjust as needed for responsiveness */
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); 
     text-align: center;
 }
 
@@ -48,21 +48,27 @@ nav a {
 }
 
 main {
+    max-width: 960px; 
+    margin: 20px auto; 
     display: grid;
-    grid-template-columns: 1fr; /* Single column layout */
-    gap: 20px;
+    grid-template-columns: 1fr; 
+    gap: 20px; 
     padding: 20px;
+    box-sizing: border-box; 
+}
+
+section ul {
+    list-style-type: none;
 }
 
 .card {
     background-color: #ffffff;
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* subtle shadow for 'card' effect */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
 footer {
-    background-color: #333333; /* Assuming a dark footer background */
-    color: #ffffff;
+    background-color: #333333; 
     text-align: center;
     padding: 20px;
 }
