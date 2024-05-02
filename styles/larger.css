@@ -1,0 +1,32 @@
+@media (min-width: 768px) {  
+    nav ul {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        gap: 20px;
+    }
+}
+
+
+
+@media (min-width: 768px) {
+    body {
+        padding: 0 20px; 
+    }
+
+    header {
+        grid-template-columns: 100px 1fr; 
+    }
+
+    nav {
+        padding: 15px 10px; 
+    }
+
+    nav a {
+        padding: 10px; 
+    }
+}
