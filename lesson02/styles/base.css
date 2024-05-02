@@ -1,0 +1,27 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header, main, footer {
+    margin: 1rem auto;
+    border: 1px solid #cccccc;
+    padding: 1rem;
+    background-color: #f0f0f0;
+}
+
+main {
+    display: grid;
+    gap:20px;
+}
+
+section {
+    padding: 1rem;
+    background-color: #ffffff;
+}
+
+section img {
+    display: block;
+    width: 100%;
+}
+
+
