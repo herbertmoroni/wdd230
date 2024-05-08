@@ -9,11 +9,7 @@
         grid-template-columns: 1fr 1fr; 
         gap: 20px;
     }
-}
 
-
-
-@media (min-width: 768px) {
     body {
         padding: 0 20px; 
     }
@@ -28,5 +24,18 @@
 
     nav a {
         padding: 10px; 
+    }
+
+    #menu {
+		display: none; 
+	}
+
+    .navigation {
+        display: block;
+    }
+
+    section:nth-last-of-type(1)
+    {
+        grid-column: span 2;
     }
 }

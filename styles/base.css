@@ -28,6 +28,34 @@ h2 {
     text-align: center;
 }
 
+#menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+	color: #000;
+ 	position: absolute;
+	right: 1rem;
+	top: 1rem;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "X";  
+}
+
+.navigation {
+    display: none;
+}
+
+.navigation.open {
+    display: block;
+}
+
+
+
 nav {
     background-color: #333333; 
     color: #ffffff;
@@ -50,6 +78,7 @@ nav a {
     padding: 5px;
 }
 
+
 main {
     margin: 20px auto; 
     padding: 20px;
@@ -63,6 +92,10 @@ section ul {
     background-color: #ffffff;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    margin-top: 30px;
+}
+
+.map {
     margin-top: 30px;
 }
 
