@@ -1,0 +1,39 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: #000080; 
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.important {
+    color: #FFD700; 
+}
+
+header, footer {
+    background-color: #000080; 
+    color: white;
+    padding: 10px 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    background-color: #FFD700; 
+    color: #000080; 
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+}
+
+h2::before {
+    content: '•'; /* Bullet character */
+    color: #FFD700; /* Gold color */
+    font-size: 24px; /* Larger size for visibility */
+    padding-right: 10px; /* Space between the bullet and the text */
+}
