@@ -10,10 +10,6 @@
         gap: 20px;
     }
 
-    body {
-        padding: 0 20px; 
-    }
-
     header {
         grid-template-columns: 100px 1fr; 
     }

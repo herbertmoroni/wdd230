@@ -1,7 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
-    padding: 0 10px;
     background: #f0f0f0; 
 }
 
@@ -33,7 +32,6 @@ h2 {
 	border: 0;
 	background: none;
 	color: #000;
- 	position: absolute;
 	right: 1rem;
 	top: 1rem;
 }
@@ -53,8 +51,6 @@ h2 {
 .navigation.open {
     display: block;
 }
-
-
 
 nav {
     background-color: #333333; 
@@ -77,7 +73,6 @@ nav a {
     display: block;
     padding: 5px;
 }
-
 
 main {
     margin: 20px auto; 
