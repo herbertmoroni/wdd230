@@ -10,18 +10,6 @@
         gap: 20px;
     }
 
-    header {
-        grid-template-columns: 100px 1fr; 
-    }
-
-    nav {
-        padding: 15px 10px; 
-    }
-
-    nav a {
-        padding: 10px; 
-    }
-
     #menu {
 		display: none; 
 	}
