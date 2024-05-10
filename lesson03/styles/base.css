@@ -38,3 +38,15 @@ footer a {
     max-width: 790px;
     width: 100%;
 }
+
+.desktop-wireframe-img {
+    display: block;
+    max-width: 739px;
+    width: 100%;
+}
+
+.mobile-wireframe-img {
+    display: block;
+    max-width: 362px;
+    width: 100%;
+}
