@@ -18,7 +18,7 @@
         display: block;
     }
 
-    section:nth-last-of-type(1)
+    iframe
     {
         grid-column: span 2;
     }
