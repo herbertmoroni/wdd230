@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ogden Valley Chamber of Commerce</title>
-    <meta name="description" content="Ogden Valley Chamber of Commerce">
+    <title>Ogden Chamber of Commerce</title>
+    <meta name="description" content="Ogden Chamber of Commerce">
     <meta name="author" content="Herbert Moroni Gois">
 
-    <meta property="og:title" content="Ogden Valley Chamber of Commerce">
+    <meta property="og:title" content="Ogden Chamber of Commerce">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://github.com/herbertmoroni/wdd230/images/ogden-utah.jpg">
-    <meta property="og:url" content="https://github.com/herbertmoroni/wdd230/chamber">
+    <meta property="og:image" content="https://herbertmoroni.github.io/wdd230/chamber/images/ogden-utah.jpg">
+    <meta property="og:url" content="https://herbertmoroni.github.io/wdd230/chamber">
 
     <link rel="stylesheet" href="../styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
@@ -20,7 +20,7 @@
 </head>
 <body>
     <header>
-        <h1>Ogden Valley Chamber of Commerce</h1>
+        <h1>Ogden Chamber of Commerce</h1>
         <button id="menu"></button>
         <nav class="navigation">
             <ul>
@@ -36,10 +36,10 @@
 
     <main>
         <section class="hero">
-            <img src="example-image.jpg" alt="Welcome to Our Community">
+            <img src="hero-image.jpg" alt="Welcome to Our Community">
             <h2>Welcome to Our Community!</h2>
             <p>Join us to make a difference!</p>
-            <a href="#" class="btn">Learn More</a>
+            <a href="#" class="btn">Subscribe</a>
         </section>
 
         <section id="news">
@@ -49,24 +49,32 @@
                 <p>Summary of the news article...</p>
                 <a href="#">Read More</a>
             </article>
-            <!-- More articles as needed -->
+
         </section>
 
         <section id="business-spotlight">
             <h2>Local Business Spotlight</h2>
-            <!-- Business profiles -->
+
         </section>
 
         <section id="community-info">
             <h2>Community Info</h2>
-            <!-- Information about the community -->
+
+        </section>
+
+        <section id="weather-info">
+            <h2>Weather in Ogden</h2>
+
         </section>
     </main>
 
     <footer>
         <p>Contact Us: <a href="mailto:info@example.com">info@example.com</a></p>
         <p>Follow Us: <a href="#">Facebook</a> | <a href="#">Twitter</a></p>
+        <p>Herbert Moroni Gois | This is a project for WDD 230</p>
+        <p><span id="lastModified"></span></p>
     </footer>
+    <script src="scripts/getdates.js"></script>
     <script src="scripts/hamburger.js"></script>
 </body>
 </html>
