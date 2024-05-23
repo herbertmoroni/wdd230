@@ -1,9 +1,9 @@
 const input = document.querySelector('#favchap');
-const button = document.querySelector('button');
+const buttonAddChapter = document.querySelector('#add-chapter');
 const list = document.querySelector('#list');
 const clearButton = document.querySelector('#clear');
 
-button.addEventListener('click', () => {
+function addChapter() {
     
     const chapter = input.value.trim();
     
@@ -43,7 +43,16 @@ button.addEventListener('click', () => {
     {
         error.textContent = 'Please enter a chapter!';
     }
-});
+}
+
+buttonAddChapter.addEventListener('click', addChapter);
+
+// Listen for Enter key press
+input.addEventListener('keydown', (event) => {
+    if (event.key === 'Enter') {
+      addChapter();
+    }
+  });
 
 // Function to clear all chapters
 clearButton.addEventListener('click', () => {
