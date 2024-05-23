@@ -40,10 +40,17 @@
 
     <main>
         <section class="hero">
-            <img src="images/ogden-utah.jpg" alt="Welcome to Our Community">
-            <h2>Welcome to Our Community!</h2>
-            <p>Join us to make a difference!</p>
-            <a href="#" class="btn">Subscribe</a>
+            <picture>
+                <source srcset="images/Ogden.format-webp.webpquality-50.width-300.webp" media="(max-width: 600px)" type="image/webp">
+                <source srcset="images/Ogden.format-webp.webpquality-50.width-768.webp" media="(min-width: 601px) and (max-width: 1200px)" type="image/webp">
+                <source srcset="images/Ogden.original.format-webp.webpquality-50.webp" media="(min-width: 1201px)" type="image/webp">
+                <img src="images/Ogden.original.format-webp.webpquality-50.webp" alt="Ogden Utah" class="hero-img">
+            </picture>
+            <div class="hero-content">
+                <h2>Welcome to Our Community!</h2>
+                <p>Join us to make a difference!</p>
+                <a href="#" class="btn">Subscribe</a>
+            </div>
         </section>
 
         <section id="news">
