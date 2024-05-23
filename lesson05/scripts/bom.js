@@ -34,7 +34,6 @@ button.addEventListener('click', () => {
 // Function to clear all chapters
 clearButton.addEventListener('click', () => {
     list.innerHTML = '';
-    localStorage.removeItem('chapters');
     input.focus();
     error.textContent = ''; // Clear error message
   });
