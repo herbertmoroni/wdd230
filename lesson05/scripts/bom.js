@@ -20,10 +20,8 @@ button.addEventListener('click', () => {
         list.append(li);
         deleteButton.addEventListener('click', () => {
           list.removeChild(li);
-          saveChapters();
           input.focus();
         });
-        saveChapters();
         input.focus();
         input.value = '';
         error.textContent = ''; // Clear error message
