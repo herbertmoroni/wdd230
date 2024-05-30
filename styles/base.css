@@ -79,6 +79,7 @@ nav a {
 main {
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 20px;
 }
 
 section ul {
@@ -122,11 +123,9 @@ footer {
     position: absolute;
 	top: 30px;
 	left: 30px;
-    background: radial-gradient(#fff, #6273c0);
-	border: 1px solid rgba(0,0,0,.75);
-	padding: 1.5rem;
-	box-shadow: 0 0 3rem #fff;
-	opacity: 0.75;
+    background: rgba(0, 0, 0, 0.4); 
+    padding: 15px;
+    border-radius: 10px;
 }
 
 .hero-content p {
@@ -134,4 +133,5 @@ footer {
 	padding: .25rem;
 	font-weight: 700;
 	font-size: 1.5rem;
+    color: white;
 }
