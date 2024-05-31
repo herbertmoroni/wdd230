@@ -41,16 +41,10 @@
     <main>
         <section class="hero">
             <picture>
-                <source srcset="images/Ogden.format-webp.webpquality-50.width-300.webp" media="(max-width: 600px)" type="image/webp">
-                <source srcset="images/Ogden.format-webp.webpquality-50.width-768.webp" media="(min-width: 601px) and (max-width: 1200px)" type="image/webp">
-                <source srcset="images/Ogden.original.format-webp.webpquality-50.webp" media="(min-width: 1201px)" type="image/webp">
-                <img src="images/Ogden.original.format-webp.webpquality-50.webp" alt="Ogden Utah" class="hero-img">
+                <source srcset="images/wdd230-org-small.webp" media="(max-width: 500px)">
+                <source srcset="images/wdd230-org-medium.webp" media="(max-width: 1000px)">
+                <img src="images/wdd230-org-large.webp" alt="Chamber Home - Responsive Images" width="1500" height="750">
             </picture>
-            <div class="hero-content">
-                <h2>Welcome to Our Community!</h2>
-                <p>Join us to make a difference!</p>
-                <a href="#" class="btn">Subscribe</a>
-            </div>
         </section>
 
         <section id="news">
@@ -75,7 +69,9 @@
 
         <section id="weather-info">
             <h2>Weather in Ogden</h2>
-
+            <p>Temperature: <span id="temperature">45</span>°F</p>
+            <p>Wind Speed: <span id="windspeed">10</span> mph</p>
+            <p>Wind Chill: <span id="windchill">N/A</span></p>
         </section>
     </main>
 
@@ -92,5 +88,6 @@
     <script src="scripts/getdates.js"></script>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/darkmode.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>
