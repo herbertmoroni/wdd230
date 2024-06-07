@@ -23,5 +23,23 @@
         display: block;
     }
     
+    .discover-main {
+        grid-template-columns: 1fr 3fr; 
+    }
 
+    .discover-sidebar {
+        grid-column: 1 / 2;
+    }
+
+    .discover-main-content {
+        grid-column: 2 / 3;
+    }
+
+    .gallery {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .gallery img:hover {
+        transform: scale(1.05); 
+    }
 }
