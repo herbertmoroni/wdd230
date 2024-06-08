@@ -42,4 +42,8 @@
     .gallery img:hover {
         transform: scale(1.05); 
     }
+
+    figcaption {
+        font-size: 1em;
+    }
 }

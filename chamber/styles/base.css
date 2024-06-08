@@ -187,12 +187,9 @@ body.dark-mode .btn:hover {
     gap: 20px;
 }
 
-.discover-sidebar {
-    grid-column: 1;
-}
-
-.discover-main-content {
-    grid-column: 1;
+.discover-sidebar section {
+    margin-bottom: 20px;
+   
 }
 
 .gallery {
@@ -218,5 +215,17 @@ body.dark-mode .btn:hover {
     margin-top: 10px;
 }
 
+figure {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
 
+figcaption {
+    font-size: 0.9em;
+    padding-top: 5px;
+}
 

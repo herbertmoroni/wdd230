@@ -39,37 +39,64 @@
 
     <main class="discover-main">
         <aside class="discover-sidebar">
-            <h2>Welcome</h2>
-            <p id="visitMessage"></p>
-            <p>Additional sidebar content here...</p>
+            <section>
+                <h2>Welcome</h2>
+                <p id="visitMessage"></p>
+            </section>
+            <section id="news">
+                <h2>News Updates</h2>
+                <article>
+                    <h3>Article Title</h3>
+                    <p>Summary of the news article...</p>
+                    <a href="#">Read More</a>
+                </article>
+            </section>
+            <section id="business-spotlight">
+                <h2>Local Business Spotlight</h2>
+                <p>Highlighting local businesses and their contributions to the community.</p>
+            </section>
+            <section id="community-info">
+                <h2>Community Info</h2>
+                <p>Get to know more about the local community and upcoming events.</p>
+            </section>
+            <section id="weather-info">
+                <h2>Weather in Ogden</h2>
+                <p>Temperature: <span id="temperature">45</span>°F</p>
+                <p>Wind Speed: <span id="windspeed">10</span> mph</p>
+                <p>Wind Chill: <span id="windchill">N/A</span></p>
+            </section>
         </aside>
         <section class="discover-main-content">
             <h2>Discover Ogden</h2>
             <div class="gallery">
-                <figure>
-                    <img data-src="images/photo1.jpg" alt="Photo 1">
-                    <figcaption>Photo 1 Caption</figcaption>
-                </figure>
-                <figure>
-                    <img data-src="images/photo2.jpg" alt="Photo 2">
-                    <figcaption>Photo 2 Caption</figcaption>
-                </figure>
-                <figure>
-                    <img data-src="images/photo3.jpg" alt="Photo 3">
-                    <figcaption>Photo 3 Caption</figcaption>
-                </figure>
-                <figure>
-                    <img data-src="images/photo4.jpg" alt="Photo 4">
-                    <figcaption>Photo 4 Caption</figcaption>
-                </figure>
-                <figure>
-                    <img data-src="images/photo5.jpg" alt="Photo 5">
-                    <figcaption>Photo 5 Caption</figcaption>
-                </figure>
-                <figure>
-                    <img data-src="images/photo6.jpg" alt="Photo 6">
-                    <figcaption>Photo 6 Caption</figcaption>
-                </figure>
+                <picture>
+                    <source srcset="images/ogden1-small.webp" media="(max-width: 400px)">
+                    <source srcset="images/ogden1-medium.webp" media="(max-width: 800px)">
+                    <source srcset="images/ogden1-large.webp" media="(max-width: 1200px)">
+                    <img src="images/ogden1-large.jpg" alt="Ogden Attraction 1" width="1200" height="800" loading="lazy">
+                    <figcaption>Beautiful view of Ogden</figcaption>
+                </picture>
+                <picture>
+                    <source srcset="images/ogden2-small.webp" media="(max-width: 400px)">
+                    <source srcset="images/ogden2-medium.webp" media="(max-width: 800px)">
+                    <source srcset="images/ogden2-large.webp" media="(max-width: 1200px)">
+                    <img src="images/ogden2-large.jpg" alt="Ogden Attraction 2" width="1200" height="800" loading="lazy">
+                    <figcaption>Downtown Ogden during the day.</figcaption>
+                </picture>
+                <picture>
+                    <source srcset="images/ogden3-small.webp" media="(max-width: 400px)">
+                    <source srcset="images/ogden3-medium.webp" media="(max-width: 800px)">
+                    <source srcset="images/ogden3-large.webp" media="(max-width: 1200px)">
+                    <img src="images/ogden3-large.jpg" alt="Ogden Attraction 3" width="1200" height="800" loading="lazy">
+                    <figcaption>Beautiful view of Ogden's mountains.</figcaption>
+                </picture>
+                <picture>
+                    <source srcset="images/ogden4-small.webp" media="(max-width: 400px)">
+                    <source srcset="images/ogden4-medium.webp" media="(max-width: 800px)">
+                    <source srcset="images/ogden4-large.webp" media="(max-width: 1200px)">
+                    <img src="images/ogden4-large.jpg" alt="Ogden Attraction 4" width="1200" height="800" loading="lazy">
+                    <figcaption>Beautiful view of Ogden's mountains.</figcaption>
+                </picture>
             </div>
         </section>
     </main>
