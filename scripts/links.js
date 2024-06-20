@@ -1,6 +1,4 @@
-const baseURL = 'https://herbertmoroni.github.io/wdd230/';
-
-const linksURL = `${baseURL}data/links.json`;
+const linksURL = 'https://herbertmoroni.github.io/wdd230/data/links.json';
 
 async function getLinks() {
   try {
