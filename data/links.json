@@ -4,12 +4,8 @@
         "lesson": "01",
         "links": [
           {
-            "url": "lesson01/activity1.html",
-            "title": "Activity 1"
-          },
-          {
-            "url": "lesson01/activity2.html",
-            "title": "Activity 2"
+            "url": "week01/holygrail.html",
+            "title": "Holy Grail"
           }
         ]
       },
@@ -17,8 +13,12 @@
         "lesson": "02",
         "links": [
           {
-            "url": "lesson02/mediaquery.html",
-            "title": "Media Queries"
+            "url": "lesson02/design.html",
+            "title": "Web Design Principles"
+          },
+          {
+            "url": "lesson02/media-query.html",
+            "title": "CSS Media Queries"
           },
           {
             "url": "lesson02/design-principles.html",
@@ -30,8 +30,47 @@
         "lesson": "03",
         "links": [
           {
-            "url": "lesson03/activity1.html",
-            "title": "Activity 1"
+            "url": "images/css-combinators.jpg",
+            "title": "CSS Combinators"
+          },
+          {
+            "url": "https://codepen.io/Moroni-Gois/pen/mdgNgzQ",
+            "title": "CSS Pseudo-elements"
+          },
+          {
+            "url": "https://codepen.io/Moroni-Gois/pen/wvZVbRg",
+            "title": "Responsive Hamburger Menu"
+          }
+        ]
+      },
+      {
+        "lesson": "04",
+        "links": [
+          {
+            "url": "https://codepen.io/Moroni-Gois/pen/pomvXOd",
+            "title": "CSS Pseudo-Classes"
+          }
+        ]
+      },
+      {
+        "lesson": "05",
+        "links": [
+          {
+            "url": "lesson05/bom.html",
+            "title": "Book of Mormon Favorite Chapters Application"
+          }
+        ]
+      },
+      {
+        "lesson": "06",
+        "links": [
+          {
+            "url": "lesson06/images/landscape.webp",
+            "title": "WebP Image File Format"
+          },
+          {
+            "url": "lesson06/responsive-images.html",
+            "title": "Responsive Images: srcset"
           }
         ]
       }
