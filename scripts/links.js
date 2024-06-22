@@ -21,7 +21,7 @@ function displayLinks(lessons) {
     const lessonElement = document.createElement('div');
     lessonElement.classList.add('lesson');
 
-    const lessonTitle = document.createElement('h3');
+    const lessonTitle = document.createElement('h4');
     lessonTitle.textContent = `Lesson ${lesson.lesson}`;
     lessonElement.appendChild(lessonTitle);
 
