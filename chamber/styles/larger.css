@@ -1,4 +1,4 @@
-@media (min-width: 768px) {  
+@media (min-width: 768px) {
     nav ul {
         flex-direction: row;
         justify-content: space-around;
