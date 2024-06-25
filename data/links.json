@@ -73,6 +73,15 @@
             "title": "Responsive Images: srcset"
           }
         ]
+      },
+      {
+        "lesson": "08",
+        "links": [
+          {
+            "url": "form.html",
+            "title": "Form Build"
+          }
+        ]
       }
     ]
   }
