@@ -2,6 +2,7 @@
     --main-font: Arial, sans-serif;
     --main-color: #333;
     --highlight-color: #007BFF;
+    --highlight-color-hover: #0056b3; 
 }
 
 body {
@@ -46,5 +47,5 @@ button {
 }
 
 button:hover {
-    background-color: darken(var(--highlight-color), 10%);
+    background-color: var(--highlight-color-hover);
 }
