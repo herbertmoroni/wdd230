@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ogden Chamber of Commerce</title>
-    <meta name="description" content="Ogden Chamber of Commerce">
+    <title>Thank You for Joining the Ogden Chamber of Commerce</title>
+    <meta name="description" content="Thank you for joining the Ogden Chamber of Commerce. We look forward to working with you to support and grow your business.">
     <meta name="author" content="Herbert Moroni Gois">
-
-    <meta property="og:title" content="Ogden Chamber of Commerce">
+    
+    <meta property="og:title" content="Thank You for Joining the Ogden Chamber of Commerce">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://herbertmoroni.github.io/wdd230/chamber/images/ogden-utah.jpg">
-    <meta property="og:url" content="https://herbertmoroni.github.io/wdd230/chamber">
+    <meta property="og:url" content="https://herbertmoroni.github.io/wdd230/chamber/thankyou.html">
+    
 
     <link rel="stylesheet" href="../styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
@@ -38,42 +39,29 @@
             <label for="dark-mode" class="dark-mode-label"></label>
         </div>
     </header>
-    
 
-    <main>
-        <section class="hero">
-            <picture>
-                <source srcset="images/wdd230-org-small.webp" media="(max-width: 500px)">
-                <source srcset="images/wdd230-org-medium.webp" media="(max-width: 1000px)">
-                <img src="images/wdd230-org-large.webp" alt="Chamber Home - Responsive Images" width="1500" height="750">
-            </picture>
-        </section>
-
-        <section id="news">
-            <h2>News Updates</h2>
-            <article>
-                <h3>Article Title</h3>
-                <p>Summary of the news article...</p>
-                <a href="#">Read More</a>
-            </article>
-
-        </section>
-
-        <section id="business-spotlight">
-            <h2>Local Business Spotlight</h2>
-
-        </section>
-
-        <section id="community-info">
-            <h2>Community Info</h2>
-
-        </section>
-
-        <section id="weather-info">
-            <h2>Weather in Ogden</h2>
-            <p>Temperature: <span id="temperature">45</span>°F</p>
-            <p>Wind Speed: <span id="windspeed">10</span> mph</p>
-            <p>Wind Chill: <span id="windchill">N/A</span></p>
+    <main class="discover-main">
+        <aside class="discover-sidebar">
+            <section>
+                <h2>NP Membership</h2>
+                <p>No Fee, basic benefits.</p>
+            </section>
+            <section>
+                <h2>Bronze Membership</h2>
+                <p>Includes event discounts, basic advertising.</p>
+            </section>
+            <section>
+                <h2>Silver Membership</h2>
+                <p>Additional advertising, training sessions.</p>
+            </section>
+            <section>
+                <h2>Gold Membership</h2>
+                <p>Premium advertising, special events, full benefits.</p>
+            </section>
+        </aside>
+        <section class="discover-main-content">
+            <h2>Thank You for Joining the Chamber!</h2>
+            <p>Your application has been submitted successfully. We will review it and get back to you soon.</p>
         </section>
     </main>
 
@@ -90,6 +78,6 @@
     <script src="scripts/getdates.js"></script>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/darkmode.js"></script>
-    <script src="scripts/windchill.js"></script>
+    <script src="scripts/lazyload.js"></script>
 </body>
 </html>

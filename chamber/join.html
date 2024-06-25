@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join the Ogden Chamber of Commerce</title>
+    <meta name="description" content="Join the Ogden Chamber of Commerce and become a part of a vibrant community. Explore our membership benefits and find the right fit for your business or organization.">
+    <meta name="author" content="Herbert Moroni Gois">
+    
+    <meta property="og:title" content="Join the Ogden Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://herbertmoroni.github.io/wdd230/chamber/images/ogden-utah.jpg">
+    <meta property="og:url" content="https://herbertmoroni.github.io/wdd230/chamber/join.html">
+    
+
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <h1>Ogden Chamber of Commerce</h1>
+        <button id="menu"></button>
+        <nav class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#business">Business</a></li>
+                <li><a href="#community">Community</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="dark-mode-toggle">
+            <input type="checkbox" id="dark-mode" class="dark-mode-checkbox">
+            <label for="dark-mode" class="dark-mode-label"></label>
+        </div>
+    </header>
+
+    <main class="discover-main">
+        <aside class="discover-sidebar">
+            <section>
+                <h2>NP Membership</h2>
+                <p>No Fee, basic benefits.</p>
+            </section>
+            <section>
+                <h2>Bronze Membership</h2>
+                <p>Includes event discounts, basic advertising.</p>
+            </section>
+            <section>
+                <h2>Silver Membership</h2>
+                <p>Additional advertising, training sessions.</p>
+            </section>
+            <section>
+                <h2>Gold Membership</h2>
+                <p>Premium advertising, special events, full benefits.</p>
+            </section>
+        </aside>
+        <section class="discover-main-content">
+            <h2>Join the Chamber of Commerce</h2>
+            <form method="get" action="thankyou.html">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required>
+
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required>
+
+                <label for="title">Title/Position:</label>
+                <input type="text" id="title" name="title" required pattern="[A-Za-z\s\-]{7,}">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="example@domain.com">
+
+                <label for="phone">Mobile Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="organization">Business/Organization Name:</label>
+                <input type="text" id="organization" name="organization" required>
+
+                <label for="membershipLevel">Membership Level:</label>
+                <select id="membershipLevel" name="membershipLevel" required>
+                    <option value="NP">NP Membership - No Fee</option>
+                    <option value="Bronze">Bronze Membership</option>
+                    <option value="Silver">Silver Membership</option>
+                    <option value="Gold">Gold Membership</option>
+                </select>
+
+                <label for="description">Business/Organization Description:</label>
+                <textarea id="description" name="description"></textarea>
+
+                <input type="hidden" id="timestamp" name="timestamp">
+
+                <button type="submit">Submit Application</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <p>Contact Us: <a href="mailto:info@example.com">info@example.com</a></p>
+            <p>Follow Us: <a href="#">Facebook</a> | <a href="#">Twitter</a></p>
+        </div>
+        <div>
+            <p>Herbert Moroni Gois | This is a project for WDD 230</p>
+            <p><span id="lastModified"></span></p>
+        </div>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/darkmode.js"></script>
+    <script src="scripts/lazyload.js"></script>
+    <script src="scripts/timestamp.js"></script>
+</body>
+</html>
