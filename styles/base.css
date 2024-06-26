@@ -140,3 +140,16 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+.weather-figure {
+    display: flex;
+    align-items: center; 
+    margin: 0px;
+}
+
+.weather-figure img {
+    margin-right: 10px; 
+    max-width: 100px; 
+    height: auto; 
+    
+}
