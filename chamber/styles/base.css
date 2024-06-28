@@ -284,11 +284,11 @@ button {
 #members.list-view .member {
     flex-direction: row;
     text-align: left;
+    border-radius: 0px;
 }
 
 #members.list-view .member img {
-    margin-right: 1rem;
-    margin-bottom: 0;
+    display: none;
 }
 
 .member-info {
@@ -300,4 +300,12 @@ button {
 .view-toggle {
     text-align: center;
     margin-bottom: 1rem;
+}
+
+#members.list-view .member:nth-child(odd) {
+    background: #f9f9f9; 
+}
+
+#members.list-view .member:nth-child(even) {
+    background: #fff; 
 }
