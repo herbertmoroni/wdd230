@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Alphia",
+        "address": "2813 Wall Ave, Ogden UT 84401",
+        "phone": "(801) 394-3477",
+        "website": "https://www.alphia.com/",
+        "image": "Alphia-Logo.png",
+        "membershipLevel": "Gold",
+        "description": "Alphia is the largest manufacturer of pet food and treats, chosen as a trusted partner for market-leading brands. We are passionate pet people with entrepreneurial spirit, rock-solid dependability and deep work ethic."
+    },
+    {
+        "name": "Great Salt Lake Artemia",
+        "address": "1750 West 2450 South, Ogden UT 84401",
+        "phone": "(801) 622-1111",
+        "website": "http://www.gsla.us/",
+        "image": "Artemia-Logo.png",
+        "membershipLevel": "Silver",
+        "description": "We’re experts in the harvesting, processing, and ecology of Artemia. We utilize science to create products of the highest quality and best nutrition while preserving the Artemia’s natural habitat."
+    },
+    {
+        "name": "Idlewire Pet Care",
+        "address": "5583 Harrison Blvd, South Ogden UT 84403",
+        "phone": "(801) 479-3000",
+        "website": "http://www.idlewire.com/",
+        "image": "Idlewire-Logo.png",
+        "membershipLevel": "Bronze",
+        "description": "Pet owners trust us to look after the needs of their beloved companions. We are specialists committed to delivering the very highest of pet care and affection."
+    },
+    {
+        "name": "MedVet of Northern Utah",
+        "address": "2465 N Main St Suite 12A, Sunset  UT 84015",
+        "phone": "(801) 776-8118",
+        "website": "https://www.medvet.com/location/northern-utah/",
+        "image": "Medvet-logo.png",
+        "membershipLevel": "Gold",
+        "description": "MedVet Northern Utah is a premier animal emergency and specialty hospital in the Greater Salt Lake City area. Our highly trained team serves as an extension of your family veterinarian’s care."
+    },
+    {
+        "name": "Ogden Nature Center",
+        "address": "966 West 12th Street, Ogden UT 84404-5410",
+        "phone": "(801) 621-7595",
+        "website": "http://www.ogdennaturecenter.org/",
+        "image": "NatureCenter-Logo.png",
+        "membershipLevel": "Silver",
+        "description": "For 50 years, the Ogden Nature Center has welcomed the public year-round to its 152-acre nature preserve and education center. The Ogden Nature Center offers a wide variety of activities from walking trails to educational programs for all ages."
+    },
+    {
+        "name": "A.B. Hadley, Inc.",
+        "address": "3650 Washington Blvd, South Ogden UT 84403",
+        "phone": "(801) 399-3341",
+        "website": "http://www.abhadley.com/",
+        "image": "Hadley-Logo.png",
+        "membershipLevel": "Bronze",
+        "description": "NAPA SERVICE CENTER. Brake Service, Oil Changes, Tune-Ups, Alignments, and more. We are a full-service auto repair shop."
+    },
+    {
+        "name": "Bonneville Meats",
+        "address": "1815 W 4000 S  Bldg 4, Roy UT 84067",
+        "phone": "(801) 603-4534",
+        "website": "https://bonnevillemeats.com/",
+        "image": "Bonneville-Logo.jpg",
+        "membershipLevel": "Gold",
+        "description": "Bonneville Meats is a large meat distributor, processor and broker in the Western United States located in Roy, Utah. We focus heavily on restaurant chains, retail grocery stores, meat processors, and distributors. We offer a variety of proteins from all over the United States, Canada, and Mexico."
+    }
+]

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ogden Chamber of Commerce - Directory</title>
+    <meta name="description" content="Ogden Chamber of Commerce">
+    <meta name="author" content="Herbert Moroni Gois">
+
+    <meta property="og:title" content="Ogden Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://herbertmoroni.github.io/wdd230/chamber/images/ogden-utah.jpg">
+    <meta property="og:url" content="https://herbertmoroni.github.io/wdd230/chamber">
+
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <h1>Ogden Chamber of Commerce</h1>
+        <button id="menu"></button>
+        <nav class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#business">Business</a></li>
+                <li><a href="#community">Community</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="dark-mode-toggle">
+            <input type="checkbox" id="dark-mode" class="dark-mode-checkbox">
+            <label for="dark-mode" class="dark-mode-label"></label>
+        </div>
+    </header>
+    
+    <main>
+        <section id="directory">
+            <div class="view-toggle">
+                <button id="grid-view">Grid View</button>
+                <button id="list-view">List View</button>
+            </div>
+            <div id="members" class="grid-view"></div>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <p>Contact Us: <a href="mailto:info@example.com">info@example.com</a></p>
+            <p>Follow Us: <a href="#">Facebook</a> | <a href="#">Twitter</a></p>
+        </div>
+        <div>
+            <p>Herbert Moroni Gois | This is a project for WDD 230</p>
+            <p><span id="lastModified"></span></p>
+        </div>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/darkmode.js"></script>
+    <script src="scripts/directory.js"></script>
+</body>
+</html>
