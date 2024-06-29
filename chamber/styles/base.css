@@ -309,3 +309,42 @@ button {
 #members.list-view .member:nth-child(even) {
     background: #fff; 
 }
+
+.banner {
+    display: none; 
+    background-color: #ffeb3b;
+    color: #000;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.banner.active {
+    display: block;
+}
+
+#close-banner {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#banner button {
+    margin-top: 10px;
+}
+
+.weather-figure {
+    display: flex;
+    align-items: center; 
+    margin: 0px;
+}
+
+.weather-figure img {
+    margin-right: 10px; 
+    max-width: 100px; 
+    height: auto; 
+}
