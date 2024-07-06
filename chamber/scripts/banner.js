@@ -1,3 +1,7 @@
+document.addEventListener('DOMContentLoaded', () => {
+    displayBanner();
+});
+
 function displayBanner() {
     const banner = document.getElementById('banner');
     const closeButton = document.getElementById('close-banner');

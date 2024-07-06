@@ -9,7 +9,6 @@ const forecastUrl = `https://api.openweathermap.org/data/2.5/forecast?lat=41.222
 document.addEventListener('DOMContentLoaded', () => {
     apiFetch();
     fetchForecastData();
-    displayBanner();
 });
 
 async function apiFetch() {
@@ -31,7 +30,7 @@ function displayResults(data) {
     const desc = data.weather[0].description;
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
-    captionDesc.innerHTML = `${data.main.temp}°F - ${desc}`;
+    captionDesc.innerHTML = `Today's: ${data.main.temp}°F - ${desc}`;
 }
 
 function fetchForecastData() {

@@ -43,27 +43,15 @@
                 <h2>Welcome</h2>
                 <p id="visitMessage"></p>
             </section>
-            <section id="news">
-                <h2>News Updates</h2>
-                <article>
-                    <h3>Article Title</h3>
-                    <p>Summary of the news article...</p>
-                    <a href="#">Read More</a>
-                </article>
-            </section>
-            <section id="business-spotlight">
-                <h2>Local Business Spotlight</h2>
-                <p>Highlighting local businesses and their contributions to the community.</p>
-            </section>
-            <section id="community-info">
-                <h2>Community Info</h2>
-                <p>Get to know more about the local community and upcoming events.</p>
-            </section>
             <section id="weather-info">
                 <h2>Weather in Ogden</h2>
-                <p>Temperature: <span id="temperature">45</span>°F</p>
-                <p>Wind Speed: <span id="windspeed">10</span> mph</p>
-                <p>Wind Chill: <span id="windchill">N/A</span></p>
+                <figure class="weather-figure">
+                    <img id="weather-icon" src="images/default-icon.png" alt="Weather icon">
+                    <figcaption id="weather-caption"></figcaption>
+                </figure>
+                <div id="forecast">
+                     <!-- Forecast populated here -->
+                </div>
             </section>
         </aside>
         <section class="discover-main-content">
@@ -140,7 +128,7 @@
     <script src="scripts/getdates.js"></script>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/darkmode.js"></script>
-    <script src="scripts/windchill.js"></script>
+    <script src="scripts/weather.js"></script>
     <script src="scripts/lazyload.js"></script>
     <script src="scripts/visitMessage.js"></script>
 </body>

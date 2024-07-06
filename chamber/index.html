@@ -45,47 +45,44 @@
     <main>
         <section class="hero">
             <picture>
-                <source srcset="images/wdd230-org-small.webp" media="(max-width: 500px)">
-                <source srcset="images/wdd230-org-medium.webp" media="(max-width: 1000px)">
-                <img src="images/wdd230-org-large.webp" alt="Chamber Home - Responsive Images" width="1500" height="750">
+                <source srcset="images/hero-ogden-small.webp" media="(max-width: 500px)">
+                <source srcset="images/hero-ogden-medium.webp" media="(max-width: 1000px)">
+                <source srcset="images/hero-ogden-large.webp" media="(max-width: 1500px)">
+                <img src="images/hero-ogden-medium.jpg" alt="Join to Ogden Chamber" width="1000" height="364">
             </picture>
+            <div class="hero-content">
+                <h1>Welcome to the Ogden Chamber of Commerce</h1>
+                <p>Supporting local businesses and fostering community growth.</p>
+                <a href="join.html" class="btn">Join Us Today</a>
+            </div>
         </section>
 
-        <section id="news">
-            <h2>News Updates</h2>
-            <article>
-                <h3>Article Title</h3>
-                <p>Summary of the news article...</p>
-                <a href="#">Read More</a>
-            </article>
-
+        <section id="about-us">
+            <h2>About Us</h2>
+            <p>Welcome to Ogden, where business thrives and community thrives. At the heart of Northern Utah, Ogden Chamber of Commerce is dedicated to enhancing the economic vitality and quality of life in our city.</p>
+            <p>Our chamber is a dynamic network of businesses, from innovative startups to established enterprises, all working together to promote growth and prosperity. Through advocacy, networking events, and community initiatives, we support our members in achieving their goals and making a positive impact.</p>
+            <p>Explore Ogden through our directory of local businesses, discover the rich history and vibrant culture of our area, and learn why Ogden is not just a place to visit, but a place to call home.</p>
+            <p>Join us in shaping the future of Ogden. Together, we build a stronger community.</p>
         </section>
-
-        <section id="business-spotlight">
-            <h2>Local Business Spotlight</h2>
-
-        </section>
-
-        <section id="community-info">
-            <h2>Community Info</h2>
-
-        </section>
+        
 
         <section id="weather-info">
             <h2>Weather in Ogden</h2>
             <figure class="weather-figure">
-                <img id="weather-icon" src="default-icon.png" alt="Weather icon">
+                <img id="weather-icon" src="images/default-icon.png" alt="Weather icon">
                 <figcaption id="weather-caption"></figcaption>
             </figure>
             <div id="forecast">
-                <h3>3-Day Forecast:</h3>
-                <!-- Forecast populated here -->
+                 <!-- Forecast populated here -->
             </div>
-        </section>
-        
+        </section>     
 
-       
-        
+        <section class="spotlight">
+            <h2>Business Spotlight</h2>
+             <div  id="business-spotlight" class="grid-view">
+                <!-- Dynamic content -->
+             </div>
+        </section>   
     </main>
 
     <footer>
@@ -101,8 +98,8 @@
     <script src="scripts/getdates.js"></script>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/darkmode.js"></script>
-    <script src="scripts/windchill.js"></script>
     <script src="scripts/banner.js"></script>
     <script src="scripts/weather.js"></script>
+    <script src="scripts/spotlight.js"></script>
 </body>
 </html>
