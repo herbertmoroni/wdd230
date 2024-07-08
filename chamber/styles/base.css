@@ -388,3 +388,7 @@ body.dark-mode a {
 body.dark-mode a:hover {
     color: #ffffff;
 }
+
+nav a.current {
+    font-weight: bold;
+}
