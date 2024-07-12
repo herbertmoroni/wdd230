@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Scoots - Get in touch with us for any inquiries or support regarding our motor scooter and ATV rentals in Cozumel.">
+    <meta property="og:title" content="Scoots Contact - Inquiries and Support">
+    <meta property="og:description" content="Contact us for any questions or support regarding our rental services in Cozumel.">
+    <meta property="og:image" content="path/to/contact-image.jpg">
+    <meta property="og:url" content="https://yourwebsite.com/contact.html">
+    <meta property="og:type" content="website">
+    <title>Contact - Scoots</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Scoots</div>
+        <div class="hamburger" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="rentals.html">Rentals</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-content">
+        <section>
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <section>
+            <h2>Our Locations</h2>
+            <div id="map"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Scoots</p>
+    </footer>
+    <script src="scripts/contact.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>

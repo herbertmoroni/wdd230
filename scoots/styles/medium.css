@@ -1,0 +1,40 @@
+@media (min-width: 768px) {
+    header nav {
+        display: block;
+    }
+
+    .hero {
+        height: 400px;
+    }
+
+    .main-content {
+        padding: 2rem;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        padding: 0;
+    }
+    
+    nav ul li {
+        margin: 0;
+    }
+    
+    .rental-card {
+        display: flex;
+        align-items: center;
+    }
+    
+    .rental-card img {
+        flex: 1;
+        margin-right: 1em;
+    }
+    
+    .rental-card div {
+        flex: 2;
+    }
+    
+}
+
