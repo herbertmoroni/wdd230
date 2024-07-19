@@ -61,6 +61,7 @@ header picture {
 header nav ul {
     list-style: none;
     margin: 0px;
+    
 }
 
 nav a, footer  {
@@ -73,6 +74,8 @@ nav a, footer  {
     text-align: center;
     letter-spacing: 0.05em; 
     padding: 10px;
+    margin-top: 0px;
+
 }
 
 nav a:hover {
@@ -82,6 +85,7 @@ nav a:hover {
 nav a.active {
     text-decoration: underline;
 }
+
 
 footer {
     background: url('../images/background-green.png') repeat;
@@ -170,21 +174,94 @@ footer {
     margin: 0 auto 20px auto;
 }
 
+#weather {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 20px 5px;
+    text-align: left;
+}
+
+#weather h2 {
+    margin: 0;
+    font-size: 1.2em;
+    
+}
+
+.current-weather{
+    margin-bottom: 30px;
+}
+
+.current-weather, .forecast-weather {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+ }
+
+.current-weather p, .current-weather img {
+    margin: 0 10px;
+}
+
+.forecast-weather p, .forecast-weather img {
+    margin: 0 10px;
+}
+
 
 /* Rentals styles */
 
 
+.rentals-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.rentals-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.rentals-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
 .rental-card {
-    border: 1px solid var(--secondary-color);
+    background-color: #fff;
     border-radius: 8px;
-    padding: 1em;
-    margin: 1em 0;
-    background-color: #FFF;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    text-align: left;
+    overflow: hidden;
 }
 
 .rental-card img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
-    display: block;
-    margin-bottom: 1em;
+}
+.rental-card .rental-content {
+    padding: 15px;
+}
+.rental-card .rental-content h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+.rental-card .rental-content p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #666;
+}
+.rental-card .rental-content .learn-more {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+.rental-card .rental-content .learn-more:hover {
+    background-color: var(--secondary-color);
 }

@@ -11,14 +11,9 @@
 
     /* Rentals styles */
 
-    .rental-card {
-        flex: 1 1 calc(50% - 2em);
-        margin: 1em;
-    }
     
-    .rental-card img {
-        width: 150px;
-    }
+  
+
     
 }
 
