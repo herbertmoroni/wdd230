@@ -1,6 +1,7 @@
 [
     {
-        "type": "Honda Metro Scooter",
+        "name": "Honda Metro Scooter",
+        "type": "Scooter",
         "capacity": 1,
         "halfDay": 20,
         "fullDay": 30,
@@ -10,7 +11,8 @@
         "alt": "Honda Metropolitan 49cc Scooter"
     },
     {
-        "type": "Honda Dio Scooter",
+        "name": "Honda Dio Scooter",
+        "type": "Scooter",
         "capacity": 2,
         "halfDay": 30,
         "fullDay": 40,
@@ -20,7 +22,8 @@
         "alt": "Honda Dio 110cc Scooter"
     },
     {
-        "type": "Honda PCX150 Scooter",
+        "name": "Honda PCX150 Scooter",
+        "type": "Scooter",
         "capacity": 2,
         "halfDay": 40,
         "fullDay": 50,
@@ -30,7 +33,8 @@
         "alt": "Honda PCX150 Scooter"
     },
     {
-        "type": "Honda Pioneer ATV",
+        "name": "Honda Pioneer ATV",
+        "type": "ATV",
         "capacity": 4,
         "halfDay": 50,
         "fullDay": 70,
@@ -40,7 +44,8 @@
         "alt": "Honda Pioneer ATV"
     },
     {
-        "type": "Jeep Wrangler - 4 door with a/c",
+        "name": "Jeep Wrangler - 4 door with a/c",
+        "type": "Jeep",
         "capacity": 5,
         "halfDay": 70,
         "fullDay": 100,
@@ -50,7 +55,8 @@
         "alt": "Jeep Wrangler - 4 door with a/c"
     },
     {
-        "type": "Jeep Wrangler - 2 door",
+        "name": "Jeep Wrangler - 2 door",
+        "type": "Jeep",
         "capacity": 4,
         "halfDay": 60,
         "fullDay": 85,

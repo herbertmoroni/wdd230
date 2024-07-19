@@ -13,7 +13,7 @@
     <meta property="og:image" content="https://github.com/herbertmoroni/scoots/images/scoots-image.jpg">
     <meta property="og:url" content="https://github.com/herbertmoroni/scoots">
 
-    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
@@ -22,29 +22,63 @@
 </head>
 <body>
     <header>
-        <div class="logo">Scoots</div>
-        <button class="hamburger" onclick="toggleMenu()">
-            <div></div>
-            <div></div>
-            <div></div>
-        </button>
-        <nav>
+        <picture>
+            <source srcset="images/logo-scoots.png" type="image/webp">
+            <img src="images/logo-scoots.png" alt="Scoots Logo">  
+        </picture>
+        <button id="menu"></button>
+        <nav class="navigation">
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="rentals.html">Rentals</a></li>
                 <li><a href="reservations.html">Reservations</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <main class="main-content">
-        <div class="hero">
-            <h1>Explore Cozumel with Scoots</h1>
-            <p>Rent your adventure today!</p>
-        </div>
-        <section>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Discover Cozumel with Scoots</h1>
+                <p>Your adventure starts here! Rent a motor scooter, jeep, or ATV and explore the beautiful island of Cozumel.</p>
+                <button class="cta-button">Rent Now</button>
+            </div>
+        </section>              
+        <section class="welcome-section">
             <h2>Welcome to Scoots</h2>
+            <hr>
             <p>Your number one choice for motor scooter rentals in Cozumel.</p>
+            <p>Discover the beauty of Cozumel with Scoots. Our friendly team and top-quality rentals make exploring the island easy and fun.</p>
+            <p>With convenient locations near the Playa del Carmen-Cozumel Ferry dock and Terminal Puerta Maya, we are always ready to serve you.</p>
+        </section>
+        <section class="rentals-section">
+            <h2>Our Rental Options</h2>
+            <div class="rentals-container">
+                <div class="rental-card">
+                    <img src="scooter-image.jpg" alt="Scooter Image">
+                    <div class="rental-content">
+                        <h3>Scooters</h3>
+                        <p>Explore Cozumel on our stylish and efficient scooters. Perfect for solo or duo adventures around the island.</p>
+                        <a href="scooters-rentals.html" class="learn-more">Learn More</a>
+                    </div>
+                </div>
+                <div class="rental-card">
+                    <img src="atv-image.jpg" alt="ATV Image">
+                    <div class="rental-content">
+                        <h3>ATVs</h3>
+                        <p>Get ready for some off-road fun with our rugged and powerful ATVs. Ideal for thrill-seekers and adventure lovers.</p>
+                        <a href="atvs-rentals.html" class="learn-more">Learn More</a>
+                    </div>
+                </div>
+                <div class="rental-card">
+                    <img src="jeep-image.jpg" alt="Jeep Image">
+                    <div class="rental-content">
+                        <h3>Jeeps</h3>
+                        <p>Discover Cozumel in comfort and style with our versatile Jeeps. Great for families and groups looking to explore together.</p>
+                        <a href="jeeps-rentals.html" class="learn-more">Learn More</a>
+                    </div>
+                </div>
+            </div>
         </section>
         <section id="weather">
             <h2>Weather Information</h2>
@@ -55,6 +89,6 @@
         <p>&copy; 2024 Scoots</p>
     </footer>
     <script src="scripts/weather.js"></script>
-    <script src="scripts/main.js"></script>
+    <script src="scripts/hamburger.js"></script>
 </body>
 </html>

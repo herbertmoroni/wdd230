@@ -1,26 +1,44 @@
 @media (min-width: 768px) {
-    header nav {
-        display: block;
+    /* Global styles */
+    header{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
     }
 
-    .hero {
-        height: 400px;
-    }
-
-    .main-content {
-        padding: 2rem;
-    }
-
-    nav ul {
-        display: flex;
-        justify-content: space-around;
-        list-style: none;
-        padding: 0;
+    header picture {
+        padding-left: 2rem;
     }
     
-    nav ul li {
-        margin: 0;
+    header nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
     }
+    
+    #menu {
+		display: none; 
+	}
+
+    .navigation {
+        display: block;
+    }
+    
+    /* Index styles */
+      
+    .hero h1 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        font-family: 'Oswald', Arial, sans-serif;
+        font-weight: 700;
+    }
+    
+    .hero p {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    /* Rentals styles */
     
     .rental-card {
         display: flex;

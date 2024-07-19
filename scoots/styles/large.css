@@ -1,22 +1,16 @@
-@media (min-width: 1024px) {
+@media (min-width: 1700px) {
+    /* Index styles */
     .hero {
-        height: 500px;
-    }
-
-    .main-content {
-        padding: 3rem;
-    }
-
-    header .logo {
-        font-size: 2rem;
-    }
-
-    main {
         display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
+        justify-content: flex-end;
     }
     
+    .hero-content {
+        margin-right: 20em;
+    }
+
+    /* Rentals styles */
+
     .rental-card {
         flex: 1 1 calc(50% - 2em);
         margin: 1em;
