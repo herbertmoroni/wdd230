@@ -3,31 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Scoots - Make a reservation for your motor scooter or ATV rental in Cozumel. Easy online reservation process.">
-    <meta property="og:title" content="Scoots Reservations - Rent Motor Scooters and ATVs in Cozumel">
-    <meta property="og:description" content="Reserve your motor scooter or ATV online. Quick and easy reservation process.">
-    <meta property="og:image" content="path/to/reservations-image.jpg">
-    <meta property="og:url" content="https://yourwebsite.com/reservations.html">
+    <title>Scoots</title>
+    
+    <meta name="description" content="Scoots - Your number one choice for motor scooter rentals in Cozumel. Explore Cozumel with our range of scooters and ATVs.">
+    <meta name="author" content="Herbert Moroni Gois">
+
+    <meta property="og:title" content="Scoots - Motor Scooter Rentals in Cozumel">
     <meta property="og:type" content="website">
-    <title>Reservations - Scoots</title>
+    <meta property="og:image" content="https://github.com/herbertmoroni/scoots/images/scoots-image.jpg">
+    <meta property="og:url" content="https://github.com/herbertmoroni/scoots">
+
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
+
+    <link rel="icon" href="favicon.ico">
 </head>
 <body>
     <header>
-        <div class="logo">Scoots</div>
-        <div class="hamburger" onclick="toggleMenu()">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-        <nav>
+        <picture>
+            <source srcset="images/logo-scoots.png" type="image/webp">
+            <img src="images/logo-scoots.png" alt="Scoots Logo">  
+        </picture>
+        <button id="menu"></button>
+        <nav class="navigation">
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="rentals.html">Rentals</a></li>
                 <li><a href="reservations.html">Reservations</a></li>
                 <li><a href="contact.html">Contact</a></li>
+                <li><a href="www.facebook.com" target="_blank">
+                        <img src="images/facebook.png" alt="Scoots facebook page" width="48" height="49">
+                    </a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -53,7 +62,6 @@
     <footer>
         <p>&copy; 2024 Scoots</p>
     </footer>
-    <script src="scripts/reservations.js"></script>
-    <script src="scripts/main.js"></script>
+    <script src="scripts/hamburger.js"></script>
 </body>
 </html>
