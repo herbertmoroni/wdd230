@@ -1,5 +1,6 @@
-/* Global styles */
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+/* Global styles */
 
 :root {
     --primary-color: #177d49;
@@ -68,7 +69,7 @@ header nav ul {
 nav a, footer  {
     font-family: 'Oswald', Arial, sans-serif;
     font-style: normal;
-    font-size: 1.8em;
+    font-size: 1.5em;
     color: white;
     text-decoration: none;
     display: block;
@@ -142,6 +143,8 @@ footer {
 }
 
 .cta-button {
+    font-family: 'Oswald', Arial, sans-serif;
+    letter-spacing: 0.07em; 
     background-color: var(--secondary-color);
     color: white;
     border: none;
@@ -274,19 +277,24 @@ footer {
     width: 100%;
     height: auto;
 }
+
 .rental-card .rental-content {
     padding: 15px;
 }
+
 .rental-card .rental-content h3 {
     font-size: 1.5em;
     margin: 10px 0;
 }
+
 .rental-card .rental-content p {
     font-size: 1em;
     line-height: 1.6;
     color: var(--text-color);
 }
+
 .rental-card .rental-content .learn-more {
+    font-family: 'Oswald', Arial, sans-serif;
     display: inline-block;
     margin-top: 15px;
     padding: 10px 20px;
@@ -296,6 +304,7 @@ footer {
     border-radius: 4px;
     transition: background-color 0.3s ease;
     font-size: 1.5em;
+    letter-spacing: 0.07em; 
 }
 
 .rental-card .rental-content .learn-more:hover {
