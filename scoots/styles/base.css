@@ -2,10 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
 :root {
-    --primary-color: #4CAF50;
-    --secondary-color: #FF5722;
+    --primary-color: #177d49;
+    --secondary-color: #005B80;
     --background-color: #f4f4f9;
-    --text-color: #333;
+    --text-color: #000;
+    --highlight-color: #f3c500;
 }
 
 body {
@@ -67,12 +68,12 @@ header nav ul {
 nav a, footer  {
     font-family: 'Oswald', Arial, sans-serif;
     font-style: normal;
-    font-size: 1.4em;
+    font-size: 1.8em;
     color: white;
     text-decoration: none;
     display: block;
     text-align: center;
-    letter-spacing: 0.05em; 
+    letter-spacing: 0.07em; 
     padding: 10px;
     margin-top: 0px;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
@@ -145,7 +146,7 @@ footer {
     color: white;
     border: none;
     padding: 0.75rem 2rem;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     cursor: pointer;
     border-radius: 5px;
     transition: background-color 0.3s;
@@ -154,7 +155,7 @@ footer {
 }
 
 .cta-button:hover {
-    background-color: var(--primary-color);
+    background-color: var(--highlight-color);
 }
 
 .welcome-section {
@@ -215,8 +216,8 @@ footer {
 
 .banner {
     display: none; 
-    background-color: #FFD700;
-    color: #181818;
+    background-color: var(--highlight-color);
+    color: var(--text-color);
     padding: 10px;
     text-align: center;
     position: relative;
@@ -283,7 +284,7 @@ footer {
 .rental-card .rental-content p {
     font-size: 1em;
     line-height: 1.6;
-    color: #666;
+    color: var(--text-color);
 }
 .rental-card .rental-content .learn-more {
     display: inline-block;
@@ -294,8 +295,9 @@ footer {
     text-decoration: none;
     border-radius: 4px;
     transition: background-color 0.3s ease;
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    font-size: 1.5em;
 }
+
 .rental-card .rental-content .learn-more:hover {
-    background-color: var(--secondary-color);
+    background-color: var(--highlight-color);
 }
