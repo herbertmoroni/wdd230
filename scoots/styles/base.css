@@ -263,7 +263,7 @@ footer {
     overflow: hidden;
 }
 
-.rental-card picture {
+.rental-card picture, .rental-card img {
     width: 100%;
     height: auto;
 }
