@@ -110,7 +110,10 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('../images/hero-image.webp') no-repeat center center/cover;
+    background: url('../images/hero-image.webp'), url('../images/hero-image.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     color: white;
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.9);
     height: 375px;
