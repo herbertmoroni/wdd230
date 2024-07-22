@@ -23,6 +23,12 @@ function displayWeather(data) {
         <p>${data.main.humidity}% Humidity</p>
         </div>
     `;
+
+    // Display high temperature in the banner
+    const banner = document.getElementById('high-temp-message');
+    const tempMax = Math.round(data.main.temp_max);
+    banner.textContent = `The high temperature for today is ${tempMax}°C.`;
+
 }
 
 function displayForecast(data) {

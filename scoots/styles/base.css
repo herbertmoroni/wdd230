@@ -68,7 +68,7 @@ nav a, footer  {
     font-family: 'Oswald', Arial, sans-serif;
     font-style: normal;
     font-size: 1.4em;
-    color: #ffffff;
+    color: white;
     text-decoration: none;
     display: block;
     text-align: center;
@@ -110,7 +110,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('../images/hero-image.jpg') no-repeat center center/cover;
+    background: url('../images/hero-image.webp') no-repeat center center/cover;
     color: white;
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.9);
     height: 375px;
@@ -154,7 +154,7 @@ footer {
 
 .welcome-section {
     text-align: center;
-    background-color: #FFF;
+    background-color: white;
     margin-top: -26px;
     padding: 26px 10px;
 }
@@ -207,6 +207,33 @@ footer {
     margin: 0 10px;
 }
 
+.banner {
+    display: none; 
+    background-color: #FFD700;
+    color: #181818;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.banner.active {
+    display: block;
+}
+
+#close-banner {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#banner button {
+    margin-top: 10px;
+}
+
 
 /* Rentals styles */
 
@@ -228,7 +255,7 @@ footer {
 }
 
 .rental-card {
-    background-color: #fff;
+    background-color: white;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 10px;
@@ -257,7 +284,7 @@ footer {
     margin-top: 15px;
     padding: 10px 20px;
     background-color: var(--primary-color);
-    color: #fff;
+    color: white;
     text-decoration: none;
     border-radius: 4px;
     transition: background-color 0.3s ease;
