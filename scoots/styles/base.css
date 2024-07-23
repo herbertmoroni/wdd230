@@ -403,7 +403,7 @@ label {
 .reservations-button {
     font-family: 'Oswald', Arial, sans-serif;
     letter-spacing: 0.07em; 
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     color: white;
     border: none;
     padding: 0.75rem 2rem;
