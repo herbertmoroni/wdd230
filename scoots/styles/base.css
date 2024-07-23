@@ -170,10 +170,12 @@ footer {
     margin-top: -26px;
     padding: 26px 10px;
 }
+
 .welcome-section h2 {
     font-size: 2em;
     margin-bottom: 0.5em;
 }
+
 .welcome-section p {
     font-size: 1em;
     line-height: 1.6;
@@ -384,8 +386,9 @@ label {
 }
 
 .reservations-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
