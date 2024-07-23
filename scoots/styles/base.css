@@ -9,6 +9,9 @@
     --text-color: #000;
     --highlight-color: #f3c500;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     font-family: Arial, sans-serif;
