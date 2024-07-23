@@ -110,6 +110,50 @@ footer {
     margin: 5px;
 }
 
+input, select, textarea {
+    width: 100%;
+    margin-top: 5px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+form {
+    margin-top: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; 
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: var(--secondary-color);
+    color: white; 
+    padding: 8px; 
+}
+
+
+td {
+    padding: 8px; 
+    border-bottom: 1px solid #ddd; 
+}
+
+
+tr:nth-child(even) {
+    background-color: #f9f9f9; 
+}
+
+
+tr:hover {
+    background-color: #f1f1f1; 
+}
+
 /* Index styles */
 
 .hero {
@@ -343,47 +387,9 @@ footer {
     max-width: 600px;
 }
 
-table {
-    width: 100%;
-    border-collapse: collapse; 
-    border: 1px solid #ddd;
-}
-
-th {
-    background-color: var(--secondary-color);
-    color: white; 
-    padding: 8px; 
-}
-
-
-td {
-    padding: 8px; 
-    border-bottom: 1px solid #ddd; 
-}
-
-
-tr:nth-child(even) {
-    background-color: #f9f9f9; 
-}
-
-
-tr:hover {
-    background-color: #f1f1f1; 
-}
 
 /* Reservation styles */
 
-input, select, textarea {
-    width: 100%;
-    margin-top: 5px;
-    padding: 8px;
-    box-sizing: border-box;
-}
-
-label {
-    display: block;
-    margin-top: 10px;
-}
 
 .reservations-container {
     display: flex;
@@ -419,3 +425,51 @@ label {
 .reservations-button:hover {
     background-color: var(--highlight-color);
 }
+
+/* Contact styles */
+
+.contact-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.contact-container section{
+    text-align: left;
+}
+
+.contact-button {
+    font-family: 'Oswald', Arial, sans-serif;
+    letter-spacing: 0.07em; 
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 0.75rem 2rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.06); 
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+}
+
+.contact-button:hover {
+    background-color: var(--highlight-color);
+}
+
+.map-container {
+    margin-bottom: 20px;
+}
+
+.map-container h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.map-container iframe {
+    border: none;
+    border-radius: 8px;
+}
+
