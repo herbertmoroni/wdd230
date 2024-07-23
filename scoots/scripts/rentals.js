@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <picture>
                             <source srcset="images/${rental.image.replace('-small.webp', '.webp')}" media="(max-width: 1700px)" type="image/webp">
                             <source srcset="images/${rental.image}" media="(min-width: 1700px)" type="image/webp">
-                            <img src="images/${rental.image}" alt="${rental.alt}">
+                            <img src="images/${rental.image}" alt="${rental.alt}" loading="lazy">
                         </picture>
                         <div class="rental-content">
                             <h3>${rental.name}</h3>
