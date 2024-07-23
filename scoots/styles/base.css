@@ -244,6 +244,22 @@ footer {
     margin-top: 10px;
 }
 
+/* Subpage styles */
+
+.subpage-main section{
+    padding: 20px;
+    text-align: center;
+}
+
+.subpage-title {
+    background-color: white;
+}
+
+.subpage-title hr {
+    width: 50px;
+    border: 2px solid  var(--primary-color);
+    margin: 0 auto 20px auto;
+}
 
 /* Rentals styles */
 
@@ -264,7 +280,7 @@ footer {
     gap: 1rem;
 }
 
-.rental-card {
+.rental-card, .rental-card-subpage {
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -273,27 +289,27 @@ footer {
     overflow: hidden;
 }
 
-.rental-card picture, .rental-card img {
+.rental-card picture, .rental-card img, .rental-card-subpage picture, .rental-card-subpage img {
     width: 100%;
     height: auto;
 }
 
-.rental-card .rental-content {
+.rental-card .rental-content, .rental-card-subpage .rental-content{
     padding: 15px;
 }
 
-.rental-card .rental-content h3 {
+.rental-card .rental-content h3, .rental-card-subpage .rental-content h3{
     font-size: 1.5em;
     margin: 10px 0;
 }
 
-.rental-card .rental-content p {
+.rental-card .rental-content p, .rental-card-subpage .rental-content p{
     font-size: 1em;
     line-height: 1.6;
     color: var(--text-color);
 }
 
-.rental-card .rental-content .learn-more {
+.rental-card .rental-content .learn-more, .rental-card-subpage .rental-content .learn-more{
     font-family: 'Oswald', Arial, sans-serif;
     display: inline-block;
     margin-top: 15px;
@@ -307,6 +323,17 @@ footer {
     letter-spacing: 0.07em; 
 }
 
-.rental-card .rental-content .learn-more:hover {
+.rental-card .rental-content .learn-more:hover, .rental-card-subpage .rental-content .learn-more:hover{
     background-color: var(--highlight-color);
+}
+
+.rentals-container-subpage {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.rental-card-subpage {
+    max-width: 600px;
 }
