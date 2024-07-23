@@ -369,4 +369,50 @@ tr:hover {
     background-color: #f1f1f1; 
 }
 
+/* Reservation styles */
 
+input, select, textarea {
+    width: 100%;
+    margin-top: 5px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+.reservations-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.reservations-container section{
+    text-align: left;
+}
+
+.form-container {
+    margin-bottom: 30px;
+}
+
+.reservations-button {
+    font-family: 'Oswald', Arial, sans-serif;
+    letter-spacing: 0.07em; 
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+    padding: 0.75rem 2rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.06); 
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+}
+
+.reservations-button:hover {
+    background-color: var(--highlight-color);
+}
